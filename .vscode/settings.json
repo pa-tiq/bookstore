@@ -1,4 +1,4 @@
 {
-    "python.defaultInterpreterPath": "C:\\Users\\patiq\\Documents\\Projects\\bookstore\\.venv\\Scripts\\python.exe",
-    "python.analysis.extraPaths": ["C:\\Users\\patiq\\Documents\\Projects\\bookstore\\.venv"]
+    "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": ["venv"]
 }
