@@ -57,6 +57,12 @@ AUTHENTICATION_BACKENDS = (
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"  # new
 LOGIN_REDIRECT_URL = "home" # new
 ACCOUNT_LOGOUT_REDIRECT = "home"  # new
+ACCOUNT_SESSION_REMEMBER = True  # new
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False  # new
+ACCOUNT_USERNAME_REQUIRED = False  # new
+ACCOUNT_AUTHENTICATION_METHOD = "email"  # new
+ACCOUNT_EMAIL_REQUIRED = True  # new
+ACCOUNT_UNIQUE_EMAIL = True  # new
 
 # django-crispy-forms
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"  # new
